@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+.container{
+    border: 1px solid black;
+    height: 210px;
+    width: 400px;
+    padding: 5px;
+    border-radius: 15px;
+}
+h1{
+   text-align: center;
+
+}
+.dates1{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 15px 10px 10px 10px ;
+    
+}
+.days{
+    display: grid;
+
+    justify-content: center;
+    background-color: #eee;
+    
+}
+.start{
+    display: grid;
+    justify-content: center;
+    grid-column-start: 3;
+
+}
+.days1{
+    display: grid;
+    justify-content: center;
+}
